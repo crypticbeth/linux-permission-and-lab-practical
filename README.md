@@ -29,16 +29,51 @@ The exercise involved examining file permissions, ownership, directory access, u
 | chmod | Modify file permissions |
 | chown | Modify file ownership |    
 
-# Investigation Scope
+# Practical Implementation
 
 The investigation covered seven security tickets:
-1. Payroll File Exposure: Investigating excessive read permissions on sensitive payroll records.
-2. HR Personnel File Manipulation: Examining unauthorized write permissions on confidential employee records.
-3. Database Backup Exposure: Assessing insecure permissions on a simulated database backup.
-4. Excessive Intern Privileges: Investigating inappropriate Finance group membership.
-5. Former Employee Account: Examining account status and residual HR group membership.
-6. Company-Wide Memo Manipulation: Investigating incorrect file ownership and unrestricted write permissions.
-7. Private Key Exposure: Assessing inappropriate access to simulated private key material.
+
+# Ticket 1: Payroll File Exposure 
+Investigating excessive read permissions on sensitive payroll records.
+
+**Screenshot 1: Payroll File Exposure**
+![Payroll File Exposure](01-payroll-permissions.png)
+
+# Ticket 2: HR Personnel File Manipulation 
+Examining unauthorized write permissions on confidential employee records.
+
+**Screenshot 2: HR Personnel File Manipulation**
+![HR Personnel File Manipulation](02-hr-file-write-permissions.png)
+
+# Ticket 3: Database Backup Exposure 
+Assessing insecure permissions on a simulated database backup.
+
+**Screenshot 3: Database Backup Exposure**
+![Database Backup Exposure](03-database-backup-exposure.png)
+
+# Ticket 4: Excessive Intern Privileges 
+Investigating inappropriate Finance group membership.
+
+**Screenshot 4: Excessive Intern Privileges**
+![Excessive Intern Privileges](04-intern-group-membership.png)
+
+# Ticket 5: Former Employee Account 
+Examining account status and residual HR group membership.
+
+**Screenshot 5: Former Employee Account**
+![Former Employee Account](05-former-employee-access.png)
+
+# Ticket 6: Company-Wide Memo Manipulation 
+Investigating incorrect file ownership and unrestricted write permissions.
+
+**Screenshot 5: Company-Wide Memo Manipulation**
+![Company-Wide Memo Manipulation](06-memo-ownership-investigation.png)
+
+# Ticket 7: Private Key Exposure 
+Assessing inappropriate access to simulated private key material.
+
+**Screenshot 7: Private Key Exposure**
+![Private Key Exposure](07-private-key-exposure.png)
 
 # Security Findings
 
