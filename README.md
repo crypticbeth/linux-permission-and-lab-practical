@@ -1,2 +1,4 @@
-# linux-permission-and-lab-practical
-I will be practicalising linux permission using a lab, files, and my kali linux,
+# Introduction 
+
+file permissions sucks!
+![dmorales screenshot](01-dmorales.png)
