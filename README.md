@@ -18,16 +18,18 @@ The exercise involved examining file permissions, ownership, directory access, u
 
 # Tools & Technologies
 
-Tool| Purpose
-Kali Linux| Investigation environment
-Bash| Command-line operations
-"ls -l"| Inspect file permissions and ownership
-"stat"| Examine file metadata
-"id"| Investigate user identities and group memberships
-"groups"| Inspect group memberships
-"find"| Search for files with insecure permissions
-"chmod"| Modify file permissions
-"chown"| Modify file ownership    
+| Tool | Purpose |
+|---|---|
+| Kali Linux | Investigation environment |
+| Bash | Command-line operations |
+| ls -l | Inspect file permissions and ownership |
+| stat | Examine file metadata |
+| id | Investigate user identities and group memberships |
+| groups | Inspect group memberships |
+| find | Search for files with insecure permissions |
+| getfacl | Examine access control lists |
+| chmod | Modify file permissions |
+| chown | Modify file ownership |    
 
 # Investigation Scope
 
